@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="delivery food" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FoodSta</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -27,20 +27,39 @@
         <div class="nav">
           <nav class="nav-header">
             <ul class="list-nav">
-              <li><a href="">Home</a></li>
-              <li><a href="#contact">About</a></li>
-              <li><a href="#service">Service</a></li>
-              <li><a href="#menu">Menu</a></li>
-              <li><a href="#contact">Conact</a></li>
+              <li><a class="nav-text">Home</a></li>
+              <li><a class="nav-text" href="#contact">About</a></li>
+              <li><a class="nav-text" href="#service">Service</a></li>
+              <li><a class="nav-text" href="#menu">Menu</a></li>
+              <li><a class="nav-text" href="#contact">Conact</a></li>
             </ul>
-            <button type="button">Order Now</button>
+            <button class="order-btn" type="button">Order Now</button>
           </nav>
         </div>
-        <button type="button" class="menu-btn">
+        <button
+          type="button"
+          class="menu-btn js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
           <svg width="24" height="18">
             <use href="./pictures/svg/icons.svg#burger"></use>
           </svg>
         </button>
+        <div class="mobile-nav js-menu-container">
+          <button class="close-btn js-close-menu" type="button">
+            <svg width="24" height="24">
+              <use href="./pictures/svg/icons.svg#close"></use>
+            </svg>
+          </button>
+          <ul class="mobile-list-nav">
+            <li><a class="mobile-nav-text">Home</a></li>
+            <li><a class="mobile-nav-text" href="#contact">About</a></li>
+            <li><a class="mobile-nav-text" href="#service">Service</a></li>
+            <li><a class="mobile-nav-text" href="#menu">Menu</a></li>
+            <li><a class="mobile-nav-text" href="#contact">Conact</a></li>
+          </ul>
+        </div>
       </div>
     </header>
     <main>
@@ -181,5 +200,13 @@
       </section> -->
     </main>
     <footer></footer>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
+    <!-- <script src="./js/modal.js"></script> -->
   </body>
 </html>
