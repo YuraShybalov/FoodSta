@@ -48,7 +48,7 @@ img {
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   color: var(--black);
   background: var(--white);
 }
@@ -65,6 +65,9 @@ body {
   .container {
     max-width: 768px;
     padding: 0px 32px;
+  }
+  body {
+    font-size: 16px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -164,6 +167,47 @@ order-btn:focus {
 .picture-about {
   display: none;
 }
+/* service section */
+.service-section {
+  background-color: var(--yellow-main);
+  padding: 60px 0px;
+}
+.image-decoration {
+  width: 280px;
+  height: 280px;
+  background-image: url('/pictures/Servise/mobail-appe-x1.png');
+  margin-bottom: 60px;
+}
+.title-service {
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 27px;
+}
+.text-service {
+  width: 272px;
+  margin-bottom: 28px;
+}
+.list-options {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.svg_service {
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  fill: #fff;
+  background-color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.title-option {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
 @media screen and (min-width: 768px) {
   .mobile-nav {
     display: none;
@@ -198,6 +242,11 @@ order-btn:focus {
   }
   .text-about {
     font-size: 16px;
+  }
+  .image-decoration {
+    width: 704px;
+    height: 364px;
+    background-image: url('/pictures/Servise/tablet-apple-x1.png');
   }
 }
 @media screen and (min-width: 1200px) {
@@ -241,5 +290,23 @@ order-btn:focus {
     right: 528px;
     border-radius: 8px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
+  }
+  .arrow-upr {
+    position: absolute;
+    top: 264px;
+    right: 0px;
+
+    border-radius: 8px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
+  }
+  .svg-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .image-decoration {
+    width: 550px;
+    height: 550px;
+    background-image: url('/pictures/Servise/pc-apple-x1.png');
   }
 }
