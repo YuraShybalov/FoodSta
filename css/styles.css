@@ -188,9 +188,11 @@ order-btn:focus {
   margin-bottom: 28px;
 }
 .list-options {
+  width: 252px;
   display: flex;
   flex-direction: column;
   gap: 28px;
+  margin-bottom: 40px;
 }
 .svg_service {
   width: 48px;
@@ -207,6 +209,37 @@ order-btn:focus {
   font-weight: 700;
   font-size: 18px;
   margin-bottom: 16px;
+}
+.btn-servce {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.order-btn-wight {
+  width: 106px;
+  height: 40px;
+  padding: 10px 20px;
+  background: #fff;
+  border-radius: 30px;
+  border: 2px solid var(--dark-green);
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--black);
+}
+.order-btn-wight:hover,
+.order-btn-wight:focus {
+  background: var(--button-green);
+}
+.btn-read-more {
+  display: flex;
+  align-items: center;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #000;
 }
 @media screen and (min-width: 768px) {
   .mobile-nav {
@@ -243,10 +276,40 @@ order-btn:focus {
   .text-about {
     font-size: 16px;
   }
+  /* ----------------------------------- */
   .image-decoration {
     width: 704px;
     height: 364px;
     background-image: url('/pictures/Servise/tablet-apple-x1.png');
+  }
+  .title-service {
+    width: 526px;
+    font-size: 42px;
+    margin-bottom: 20px;
+  }
+  .text-service {
+    width: 500px;
+    margin-bottom: 40px;
+  }
+  .list-options {
+    width: 620px;
+    flex-direction: row;
+    gap: 116px;
+    margin-bottom: 63px;
+  }
+  .text-option {
+    width: 252px;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--black);
+  }
+  .order-btn-wight {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  .btn-read-more {
+    font-size: 13px;
+    line-height: 1.5;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -304,9 +367,20 @@ order-btn:focus {
     align-items: center;
     justify-content: center;
   }
+  .service {
+    display: flex;
+    align-items: center;
+    gap: 126px;
+  }
   .image-decoration {
     width: 550px;
     height: 550px;
     background-image: url('/pictures/Servise/pc-apple-x1.png');
+  }
+  .title-service {
+    width: 526px;
+  }
+  .list-options {
+    width: 573px;
   }
 }
