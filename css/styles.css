@@ -241,6 +241,15 @@ order-btn:focus {
   line-height: 1.5;
   color: #000;
 }
+/* section menu */
+.title-menu {
+  width: 200px;
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 @media screen and (min-width: 768px) {
   .mobile-nav {
     display: none;
@@ -322,8 +331,6 @@ order-btn:focus {
   .title-about {
     font-size: 48px;
   }
-  .text-about {
-  }
   .hero-section {
     display: flex;
     justify-content: space-between;
@@ -370,7 +377,7 @@ order-btn:focus {
   .service {
     display: flex;
     align-items: center;
-    gap: 126px;
+    gap: 37px;
   }
   .image-decoration {
     width: 550px;
@@ -382,5 +389,12 @@ order-btn:focus {
   }
   .list-options {
     width: 573px;
+    gap: 67px;
+  }
+  .text-option {
+    width: 253px;
+  }
+  .btn-read-more {
+    display: none;
   }
 }
