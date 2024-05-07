@@ -132,11 +132,13 @@ mobile-nav-text:focus {
   color: var(--button-green);
 }
 /* About */
+.hero-section {
+  margin-bottom: 60px;
+}
 .about {
   display: flex;
   flex-direction: column;
   gap: 28px;
-  margin-bottom: 60px;
 }
 
 .title-about {
@@ -242,6 +244,13 @@ order-btn:focus {
   color: #000;
 }
 /* section menu */
+.mein-section {
+  margin-top: 50px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .title-menu {
   width: 200px;
   font-weight: 700;
@@ -249,7 +258,30 @@ order-btn:focus {
   text-align: center;
   margin-bottom: 20px;
 }
-
+.span-menu {
+  display: flex;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.list-dishs-mobile {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.dish {
+  width: 280px;
+  height: 282px;
+  border: 11px solid var(--yellow-main);
+  border-radius: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-dish {
+  width: 223px;
+  height: 223px;
+  border-radius: 116px;
+}
 @media screen and (min-width: 768px) {
   .mobile-nav {
     display: none;
@@ -320,12 +352,42 @@ order-btn:focus {
     font-size: 13px;
     line-height: 1.5;
   }
+  /* ---------------------- */
+  .mein-section {
+    margin-top: 60px;
+  }
+  .title-menu {
+    width: 656px;
+    font-size: 42px;
+    text-align: center;
+  }
+
+  .list-dishs-mobile {
+    display: none;
+  }
+  .list-dishs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+  .dish {
+    border: 14px solid var(--yellow-main);
+    border-radius: 168px;
+    width: 336px;
+    height: 338px;
+  }
+  .img-dish {
+    border-radius: 140px;
+    width: 267px;
+    height: 268px;
+  }
 }
 @media screen and (min-width: 1200px) {
   header {
     margin-bottom: 27px;
   }
-  .about {
+  .hero-section {
     margin-bottom: 27px;
   }
   .title-about {
@@ -396,5 +458,25 @@ order-btn:focus {
   }
   .btn-read-more {
     display: none;
+  }
+  /* ------------------------- */
+  .mein-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .list-dishs {
+    /* display: flex;
+    justify-content: center;
+    flex-wrap: wrap; */
+    gap: 32px;
+  }
+  .dish {
+    border: 16px solid var(--yellow-main);
+    border-radius: 197px;
+    width: 360px;
+    height: 362px;
+  }
+  .span-menu {
+    margin-bottom: 36px;
   }
 }
