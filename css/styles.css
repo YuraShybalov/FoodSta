@@ -263,6 +263,9 @@ order-btn:focus {
   text-align: center;
   margin-bottom: 60px;
 }
+.list-dishs {
+  display: none;
+}
 .list-dishs-mobile {
   display: flex;
   flex-direction: column;
@@ -281,6 +284,59 @@ order-btn:focus {
   width: 223px;
   height: 223px;
   border-radius: 116px;
+}
+/* feedback section */
+.feedback {
+  background-color: var(--yellow-main);
+  padding: 60px 0px;
+}
+.title-feedback {
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.list-feedback {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.feedback-card {
+  width: 280px;
+  border-radius: 0px 30px 30px 30px;
+  padding: 7px 8px 9px 8px;
+  background: var(--white);
+}
+.user-card {
+  width: 160px;
+  height: 52px;
+  border-right: 1px solid var(--dark-green);
+  display: flex;
+  gap: 16px;
+}
+.stars {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 29px;
+}
+.feedback-text {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 39px;
+}
+
+.awatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+
+  outline: 2px solid var(--yellow-main);
+  outline-offset: -2px;
+}
+.username {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
 }
 @media screen and (min-width: 768px) {
   .mobile-nav {
@@ -382,6 +438,18 @@ order-btn:focus {
     width: 267px;
     height: 268px;
   }
+  /* --------------------------------------- */
+  .title-feedback {
+    font-size: 42px;
+  }
+  .list-feedback {
+    flex-direction: row;
+    gap: 32px;
+  }
+  .feedback-card {
+    width: 336px;
+    padding: 16px 12px 30px 12px;
+  }
 }
 @media screen and (min-width: 1200px) {
   header {
@@ -478,5 +546,9 @@ order-btn:focus {
   }
   .span-menu {
     margin-bottom: 36px;
+  }
+  /* -------------------------------------------------- */
+  .feedback {
+    padding: 100px 0px;
   }
 }
