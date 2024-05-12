@@ -387,8 +387,8 @@ order-btn:focus {
 }
 .footer-fon {
   width: 319px;
-  /* height: 619px; */
-  background: url(/pictures/fon-footer-mobile.png);
+  background: url(./pictures/fon-footer-mobile.png);
+  /* background: url(/pictures/fon-footer-mobile.png); */
   padding-top: 60px;
   padding-bottom: 60px;
   display: flex;
@@ -410,10 +410,13 @@ order-btn:focus {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.5;
+  margin-bottom: 12px;
 }
 .form-footer {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
 }
 .style-imput-footer {
   border: 0.85px solid var(--yellow-main);
@@ -421,8 +424,55 @@ order-btn:focus {
   padding: 10px;
   width: 279px;
   height: 42px;
+  margin-bottom: 20px;
 }
-
+.btn-submit-footer {
+  width: 103px;
+  height: 42px;
+  border-radius: 30px;
+  border: 0.85px solid var(--dark-green);
+  padding: 10px 20px;
+  background: #fff;
+  margin-bottom: 20px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.btn-submit-footer:hover,
+.btn-submit-footer:focus {
+  border: 2px solid var(--yellow-main);
+}
+.priv-policy {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 10px;
+  color: var(--black);
+}
+.link-footer {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 10px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: var(--dark-green);
+}
+.additional-inform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.list-link {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 40px;
+}
+.copyright {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 10px;
+  color: var(--black);
+}
 @media screen and (min-width: 768px) {
   .mobile-nav {
     display: none;
