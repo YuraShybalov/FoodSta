@@ -387,7 +387,7 @@ order-btn:focus {
 }
 .footer-fon {
   width: 319px;
-  background: url(./pictures/fon-footer-mobile.png);
+  background: url(../pictures/fon-footer-mobile.png);
   /* background: url(/pictures/fon-footer-mobile.png); */
   padding-top: 60px;
   padding-bottom: 60px;
