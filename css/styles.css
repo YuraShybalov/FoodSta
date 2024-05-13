@@ -501,12 +501,47 @@ order-btn:focus {
     text-decoration-skip-ink: none;
     color: var(--button-green);
   }
+  /* ------------------------------------------------------- */
+  .hero-section {
+    position: relative;
+  }
   .title-about {
+    width: 537px;
     font-size: 42px;
     line-height: 1.2;
   }
   .text-about {
     font-size: 16px;
+  }
+  .picture-about {
+    position: absolute;
+    top: 50px;
+    right: 32px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 320px;
+    height: 320px;
+    border-radius: 100%;
+    fill: #fff;
+    outline: 14px solid var(--yellow-main);
+    outline-offset: -14px;
+  }
+  .pikture {
+    width: 292px;
+    height: 292px;
+    /* border-radius: 100%;
+    fill: #fff;
+    outline: 14px solid var(--yellow-main);
+    outline-offset: 14px; */
+    /* outline: 2px solid red;
+  outline-offset: -2px; */
+  }
+  .skroll-left {
+    display: none;
+  }
+  .arrow-upr {
+    display: none;
   }
   /* ----------------------------------- */
   .image-decoration {
@@ -611,6 +646,7 @@ order-btn:focus {
     margin-bottom: 27px;
   }
   .title-about {
+    width: 515px;
     font-size: 48px;
   }
   .hero-section {
@@ -622,7 +658,7 @@ order-btn:focus {
     width: 515px;
   }
   .picture-about {
-    position: relative;
+    position: static;
     width: 560px;
     height: 560px;
     display: flex;
@@ -632,20 +668,19 @@ order-btn:focus {
   .pikture {
     width: 528px;
     height: 528px;
-    border-radius: 100%;
-    fill: #fff;
-    outline: 14px solid var(--yellow-main);
   }
   .skroll-left {
+    display: block;
     position: absolute;
-    top: 264px;
-    right: 528px;
+    top: 255px;
+    right: 550px;
     border-radius: 8px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.06);
   }
   .arrow-upr {
+    display: block;
     position: absolute;
-    top: 264px;
+    top: 255px;
     right: 0px;
 
     border-radius: 8px;
