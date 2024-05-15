@@ -176,7 +176,7 @@ order-btn:focus {
 .image-decoration {
   width: 280px;
   height: 280px;
-  background-image: url('/pictures/Servise/mobail-appe-x1.png');
+  background-image: url(./pictures/Servise/mobail-appe-x1.png);
   margin-bottom: 60px;
 }
 .title-service {
@@ -345,7 +345,7 @@ order-btn:focus {
 .banana {
   width: 280px;
   height: 78px;
-  background: url('/pictures/banana.png');
+  background: url(../pictures/banana.png);
   margin-bottom: 17px;
 }
 .title-subscri {
@@ -383,6 +383,10 @@ order-btn:focus {
 .btn-submit:hover,
 .btn-submit:focus {
   background: var(--yellow-main);
+}
+footer {
+  box-shadow: 0 -4px 24px 0 rgba(105, 105, 105, 0.1);
+  background: var(--white);
 }
 .footer-fon {
   width: 319px;
@@ -545,7 +549,7 @@ order-btn:focus {
   .image-decoration {
     width: 704px;
     height: 364px;
-    background-image: url('/pictures/Servise/tablet-apple-x1.png');
+    background-image: url(../pictures/Servise/tablet-apple-x1.png);
   }
   .title-service {
     width: 526px;
@@ -661,11 +665,21 @@ order-btn:focus {
     height: 42px;
     margin-right: 24px;
   }
+  .priv-policy {
+    font-size: 12px;
+  }
   .additional-inform {
+    flex-direction: row;
   }
   .list-link {
     gap: 16px;
-    margin: 0px;
+    margin: 0px 244px 0px 0px;
+  }
+  .link-footer {
+    font-size: 12px;
+  }
+  .copyright {
+    font-size: 12px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -729,7 +743,7 @@ order-btn:focus {
   .image-decoration {
     width: 550px;
     height: 550px;
-    background-image: url('/pictures/Servise/pc-apple-x1.png');
+    background-image: url(../pictures/Servise/pc-apple-x1.png);
   }
   .title-service {
     width: 526px;
@@ -801,8 +815,20 @@ order-btn:focus {
     width: 546px;
     height: 266px;
     display: flex;
-    background: url('/pictures/bananaPC.png');
+    background: url(../pictures/bananaPC.png);
     margin: 0px;
   }
   /* --------------------------------- */
+  .footer-fon {
+    width: 1280px;
+    height: 266px;
+    padding: 100px 16px 102px 16px;
+    background: url(../pictures/fon-footer-pc.png);
+  }
+  .list-nav-footer {
+    flex-direction: row;
+    align-items: center;
+    gap: 28px;
+    margin-left: 148px;
+  }
 }
