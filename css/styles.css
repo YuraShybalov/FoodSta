@@ -125,6 +125,7 @@ header {
   font-weight: 400;
   font-size: 16px;
   color: #000;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .mobile-nav-text:hover,
 mobile-nav-text:focus {
@@ -160,6 +161,7 @@ mobile-nav-text:focus {
   font-size: 13px;
   line-height: 1.5;
   text-align: right;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .order-btn:hover,
 order-btn:focus {
@@ -228,6 +230,7 @@ order-btn:focus {
   font-size: 13px;
   line-height: 1.5;
   color: var(--black);
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .order-btn-wight:hover,
 .order-btn-wight:focus {
@@ -379,6 +382,7 @@ order-btn:focus {
   font-size: 13px;
   line-height: 1.5;
   border: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .btn-submit:hover,
 .btn-submit:focus {
@@ -443,6 +447,7 @@ footer {
   font-weight: 500;
   font-size: 13px;
   line-height: 1.5;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .btn-submit-footer:hover,
 .btn-submit-footer:focus {
