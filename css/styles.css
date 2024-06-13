@@ -656,37 +656,6 @@ footer {
     align-items: center;
     gap: 28px;
   }
-
-  /* .subscribe {
-    width: 460px;
-  } */
-
-  /* .form-footer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  } */
-  /* .style-imput-footer {
-    width: 279px;
-    height: 42px;
-    margin-right: 24px;
-  } */
-  /* .priv-policy {
-    font-size: 12px;
-  } */
-  /* .additional-inform {
-    flex-direction: row;
-  } */
-  /* .list-link {
-    gap: 16px;
-    margin: 0px 244px 0px 0px;
-  } */
-  /* .link-footer {
-    font-size: 12px;
-  } */
-  /* .copyright {
-    font-size: 12px;
-  } */
 }
 @media screen and (min-width: 1200px) {
   header {
